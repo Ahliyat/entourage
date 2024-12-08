@@ -5,23 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #ffffff;
   color: #111111;
+   font-family: "Inknut Antiqua", "Inter", "Poppins", serif;
 }
-a{
-  text-decoration: none;
-  color: inherit;
-}
-li{
-  list-style: none;
-}
-img{
+img {
   width: 100%;
   height: auto;
 }
-.container{
-  max-width: 1280px;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1420px;
   margin: 0 auto;
-  padding: 2rem 4rem;
+  padding: 0rem 4rem;
 }
