@@ -1,6 +1,4 @@
-const index = () => {
-  return (
-    <div>index</div>
-  )
-}
-export default index
+import Navbar from "./navbar/Navbar";
+import Hero from "./hero/Hero";
+
+export { Navbar, Hero };

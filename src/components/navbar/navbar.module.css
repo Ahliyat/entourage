@@ -1,0 +1,27 @@
+.navBarContainer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bars {
+  width: 41px;
+  height: 12px;
+}
+.navBarContainer h1 {
+  color: #fff;
+  font-family: "Inknut Antiqua";
+  font-weight: 600;
+  font-size: 36px;
+}
+.navbarBtn {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #FFFFFF80;
+  padding: 8px 20px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 48px;
+  cursor: pointer;
+}

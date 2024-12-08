@@ -1,14 +1,12 @@
+import "./App.css";
+import Home from "./pages/Home/Home";
 
-import './App.css'
-
- const App = () => {
-  
-
+const App = () => {
   return (
-   <section>
-    Hello
-   </section>
-  )
-}
+    <section>
+      <Home />
+    </section>
+  );
+};
 
-export default App
+export default App;
