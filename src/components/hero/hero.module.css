@@ -8,10 +8,97 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+}
+.container{
+  position: relative;
 }
 .heroContainer h2 {
   font-size: 64px;
   font-weight: 700;
   line-height: 76.8px;
   text-align: center;
+}
+
+.inputSection{
+  position: absolute;
+  width: 1216px;
+height: 145px;
+top: 670px;
+left: 135px;
+backdrop-filter: blur(28px);
+box-shadow: 0px 20px 24px -4px #10182814;
+gap: 0px;
+opacity: 0px;
+background-color: #fff;
+border-radius: 10px;
+
+}
+.forms{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 2rem;
+}
+.form1, .form2{
+display: flex;
+flex-direction: column;
+gap: .7rem;
+}
+.label{
+opacity: 0.8px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+.input{
+
+  width: 280px;
+height: 46px;
+padding: 16px;
+gap: 8px;
+border-radius: 3px;
+opacity: 0px;
+background-color: #fff;
+
+}
+.form2 input{
+width: 180px;
+height: 46px;
+padding: 16px;
+gap: 8px;
+border-radius: 3px;
+opacity: 0px;
+background-color: #fff;
+}
+
+.inputBtn {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  width: 183px;
+/* height: 46px; */
+padding: 14px 24px ;
+border-radius: 64px;
+margin-top: 1.5rem;
+align-items: center;
+}
+.form1 div{
+position: relative;
+}
+.location{
+  position: absolute;
+  top: .8rem;
+  width: 17px;
+height: 17px;
+left: 1rem;
+opacity: 80%;
+}
+
+::placeholder{
+  padding-left: 2rem;
+  font-size: 14px;
 }
