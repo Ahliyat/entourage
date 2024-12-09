@@ -1,0 +1,34 @@
+.section2Container{
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 5rem;
+  gap: 3rem;
+}
+
+.heading {
+width: 264px;
+height: 69px;
+font-family: Inknut Antiqua;
+font-size: 36px;
+font-weight: 600;
+text-align: left;
+
+
+}
+.aboutContainer {
+  display: flex;
+  gap: 5rem;
+}
+.textContainer {
+  width: 548px;
+height: 350px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+}
+.aboutImage {
+  width: 689px;
+  height: 389px;
+  border-radius: 18px;
+}
