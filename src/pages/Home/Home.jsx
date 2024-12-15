@@ -1,4 +1,5 @@
-import { Navbar, Hero, About } from "../../components/index";
+
+import { Navbar, Hero, About, CarsCollection } from "../../components/index";
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About/>
+      <CarsCollection/>
     </div>
   );
 };

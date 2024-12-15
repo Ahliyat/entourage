@@ -1,8 +1,11 @@
 import styles from "./about.module.css"
+import GeneralStyles from "../../index.module.css";  
 
 const About = () => {
   return (
-    <section className={styles.section2Container}>
+    <section
+      className={`${GeneralStyles.container} ${styles.section2Container}`}
+    >
       <h2 className={styles.heading}> Entourage</h2>
       <section className={styles.aboutContainer}>
         <p className={styles.textContainer}>
