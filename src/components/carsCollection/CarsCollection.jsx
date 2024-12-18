@@ -54,7 +54,7 @@ const CarsCollection = () => {
         </section>
       </section>
       <Button className={styles.allCarsBtn}>
-        Find a vehicle <FaArrowRight />
+        See all cars <FaArrowRight />
       </Button>
     </section>
   );

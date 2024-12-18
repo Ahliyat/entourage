@@ -16,7 +16,9 @@ const PremiumServices = () => {
       </section>
       <section className={styles.section5Content}>
         <div  className={styles.section5Icons}>
+             <div className={styles.section5IconContainer}>
           <BsStars className={styles.section5Icon} />
+          </div>
           <h3>Quality Choice</h3>
           <p>
             We offer a wide range of high-quality vehicles to choose from,
@@ -24,7 +26,10 @@ const PremiumServices = () => {
           </p>
         </div>
         <div  className={styles.section5Icons}>
+             <div className={styles.section5IconContainer}>
+
           <PiHandCoins className={styles.section5Icon} />
+          </div>
           <h3>Affordable Prices</h3>
           <p>
             Our rental rates are highly competitive and affordable, allowing our
@@ -32,7 +37,9 @@ const PremiumServices = () => {
           </p>
         </div>
         <div  className={styles.section5Icons}>
+             <div className={styles.section5IconContainer}>
           <PiSealCheckBold className={styles.section5Icon} />
+          </div>
           <h3>Convenient Online Booking</h3>
           <p>
             With our easy-to-use online booking system, customers can quickly
