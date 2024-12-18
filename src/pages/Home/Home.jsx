@@ -1,6 +1,6 @@
 
-import { Navbar, Hero, About, CarsCollection } from "../../components/index";
-import NeedACar from "../../components/needaCar/NeedACar";
+import { Navbar, Hero, About, CarsCollection, PremiumServices, NeedACar } from "../../components/index";
+
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
       <About/>
       <CarsCollection/>
       <NeedACar/>
+      <PremiumServices/>
     </div>
   );
 };

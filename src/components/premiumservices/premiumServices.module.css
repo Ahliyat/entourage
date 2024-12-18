@@ -1,0 +1,36 @@
+.section5Container{
+height: 586px;
+background-color: #0F0F0F;
+color: #fff;
+display: flex;
+flex-direction: column;
+}
+.section5Text{
+  width: 720px;
+height: 144px;
+display: flex;
+gap: 24px;
+justify-content: center;
+align-items: center;
+
+}
+.section5Heading{
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+.section5Paragraph{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+text-align: center;
+
+}
+.section5Content
+.section5Icons
+.section5Icon{
+
+}
